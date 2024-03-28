@@ -29,7 +29,7 @@ public class Main {
         DecimalFormat df = new DecimalFormat("0.#");
 
         System.out.println("\n==== Arithmetic ====");
-        Arithmetic<Integer, Double> arith = new Arithmetic<>(14, 0.0);
+        Arithmetic<Integer, Long> arith = new Arithmetic<>(1, 3L);
 
         arith.print();
         System.out.println("Add : \t\t" + df.format(arith.add()));
