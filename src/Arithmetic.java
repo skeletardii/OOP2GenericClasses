@@ -2,8 +2,8 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 public class Arithmetic<A extends Number, B extends Number>{
-    private A numA;
-    private B numB;
+    private final A numA;
+    private final B numB;
     public Arithmetic(A numA, B numB){
         this.numA = numA;
         this.numB = numB;
