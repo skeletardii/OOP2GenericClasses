@@ -5,7 +5,7 @@ public class Main {
 
         // ==== MyMap ==== //
         System.out.println("==== MyMap ====");
-        MyMap<String, Integer> map = new MyMap();
+        MyMap<String, Integer> map = new MyMap<>();
 
         System.out.println("Adding Values: ");
         map.put("Snake",2025);
